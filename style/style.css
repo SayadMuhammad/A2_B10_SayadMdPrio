@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+#text-color{
+    color: darkgray;
+}
+
+
+/* ----------------------- banner section ----------------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 50px;
+    gap: 30px;
+    padding: 15px 50px;
+}
+
+.nav-head{
+    color: rgb(255, 72, 0);
+}
+
+#nav-button{
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+#nav-button :hover{
+    background-color: rgb(255, 72, 0);
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+#nav-button-text{
+    text-decoration: none;
+    color: white;
+}
+
+#banner-button{
+    background: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+}
+
+#banner-button :hover{
+    background-color: rgb(255, 72, 0);
+    border-radius: 50px;
+}
+
+#banner-button-text{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ----------------------- change section ----------------------- */
+.change-sec{
+    color: white;
+}
+
+.change-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#change-img{
+    width: 50%;
+    height: auto;
+}
+
+#change-img :hover{
+    display: inline-block;
+    transform: scale(1.1);
+    transition: .3s;
+  }
+
+
+/* ----------------------- extra section ----------------------- */
+.extra-sec{
+    color: white;
+}
+
+.extra-img{
+    width: 30%;
+    height: 30%;
+}
+
+#extra-button{
+    background-color: rgb(255, 72, 0);
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+#extra-button :hover{
+    background-color: none;
+    border-radius: 50px;
+}
+ 
+#extra-button-text{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ----------------------- training section ----------------------- */
+.training-sec{
+    color: white;
+}
+
+
+/* ----------------------- bmi section ----------------------- */
+.bmi-sec{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+
+/* ----------------------- meet section ----------------------- */
+.meet-sec{
+    color: white;
+}
+
+
+/* ----------------------- footer section ----------------------- */
+.foot-sec{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    color: white;
+}
+
+.foot-head{
+    color: rgb(255, 72, 0);
+}
+
+#service-list{
+    display: flex;
+    flex-direction: column;
+}
+
+#service-item{
+    text-decoration: none;
+    color: darkgray;
+}
